@@ -8,9 +8,9 @@ $host = "";
 $username = "";
 $password = "";
 $database = "";
+```
 
 Değerlerini kendinize göre ayarların.
-```
 
 ## V1 Özellikleri
 
