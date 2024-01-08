@@ -1,1 +1,1 @@
-# php-stok-yonetim-
+# PHP ile Stok Yönetim Programı
