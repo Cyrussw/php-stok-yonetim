@@ -9,7 +9,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $sql = "INSERT INTO urunler (adi, sayi, tarih) VALUES ('" . $urun_adi . "', '" . $urun_adet . "', NOW())";
 
     if ($db->query($sql)) {
-        echo "Ürün Eklendi!";
+        header('Location: urunler.php');
+        exit;
     } else {
         echo "Ürün Eklenemedi!";
     }
