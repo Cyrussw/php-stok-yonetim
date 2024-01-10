@@ -15,3 +15,4 @@ Değerlerini kendinize göre ayarların.
 ## V1 Özellikleri
 
 1. Ürün Ekleme
+2. Ürünleri Görme
