@@ -30,11 +30,10 @@ $result = $db->query($sql);
                 <div class="columns is-multiline">
                     <?php
                     foreach ($result as $item) {
+                        $id = $item['id'];
                         $adi = $item['adi'];
                         $sayi = $item['sayi'];
-
                         ?>
-
                         <div class="column is-one-fifth">
                             <div class="card">
                                 <header class="card-header">
@@ -47,9 +46,11 @@ $result = $db->query($sql);
                                         <?php echo "Ürünün Stok Adeti: " . $sayi; ?>
                                     </div>
                                 </div>
+                                <div class="card-footer">
+                                    <a href="sil.php?id=<?php echo $id; ?>" class="card-footer-item">Sil</a>
+                                </div>
                             </div>
                         </div>
-
                         <?php
                     }
                     ?>
