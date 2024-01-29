@@ -16,3 +16,4 @@ Değerlerini kendinize göre ayarların.
 
 1. Ürün Ekleme
 2. Ürünleri Görme
+3. Ürünleri Sil
